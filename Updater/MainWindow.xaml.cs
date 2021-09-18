@@ -24,7 +24,7 @@ namespace Updater
 
             try
             {
-                client.DownloadFile("http://localhost/Dofus/bones345.d2p", @"C:\Users\jocel\Desktop\Test\bones345.d2p");
+                client.DownloadFile("http://localhost/Dofus/bones345.d2p", @"C:\Users\Desktop\Test\bones345.d2p");
                 Console.WriteLine("Download");
             }
 
