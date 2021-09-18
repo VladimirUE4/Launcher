@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="975081.jpg" />
+    <None Remove="dofus.png" />
+    <None Remove="kisspng-dofus-touch-wakfu-dofus-pogo-dofus-pets-dofus-2-25-1-9-112-3-free-download-for-mac-macupda-5b6cbb6f7a2433.6969197815338525275003%281%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="975081.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="dofus.png" />
+    <Resource Include="kisspng-dofus-touch-wakfu-dofus-pogo-dofus-pets-dofus-2-25-1-9-112-3-free-download-for-mac-macupda-5b6cbb6f7a2433.6969197815338525275003(1).png" />
+  </ItemGroup>
+
+</Project>
