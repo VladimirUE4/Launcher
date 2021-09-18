@@ -1,2 +1,2 @@
 # Launcher
-<img src="./CAPTURE.png" alt="MMMMMM">
+<img src="./Capture.PNG" alt="MMMMMM">
